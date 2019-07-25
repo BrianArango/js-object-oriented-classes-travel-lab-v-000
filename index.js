@@ -40,8 +40,3 @@ blocksTravelled() {
 		return this.blocksTravelled() / 3;
     	}}
 	}
-
-newRoute = new Route({horizontal: '1st Avenue', vertical: '34'}, {horizontal: 'Park', vertical: '45'});
-
-newRoute.blocksTravelled();
-newRoute.estimatedTime("y");
